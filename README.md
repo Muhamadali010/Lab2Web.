@@ -35,3 +35,52 @@ echo "Hello World";
 </body>
 </html>```
 ````
+
+Kemudian untuk mengakses hasilnya melalui URL: http://127.0.0.1/lab2_php_dasar/php_dasar.php
+![image](SS/2.JPG)
+
+# Variable PHP
+
+Menambahkan variable pada program.
+
+````py
+<?php
+$nim = "0411500400";
+$nama = 'Abdullah';
+echo "NIM : " . $nim . "<br>";
+echo "Nama : $nama";
+?>```
+![image](SS/3.JPG)
+
+````
+
+# Predefine Variable $\_GET
+
+````py
+<?php
+echo 'Selamat Datang ' . $_GET['nama'];
+?>```
+
+# Membuat Form Input
+```py
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PHP Dasar</title>
+</head>
+<body>
+<h2>Form Input</h2>
+<form method="post">
+<label>Nama: </label>
+<input type="text" name="nama">
+<input type="submit" value="Kirim">
+</form>
+<?php
+echo 'Selamat Datang ' . $_POST['nama'];
+?>
+</body>
+</html>```
+![image](SS/4.JPG)
+
+````
