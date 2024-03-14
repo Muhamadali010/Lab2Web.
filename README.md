@@ -20,7 +20,7 @@ http://localhost/lab2_php_dasar/
 Buat file baru dengan nama php_dasar.php pada directory tersebut. Kemudian buat kode seperti
 berikut.
 
-````py
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,8 +33,8 @@ berikut.
 echo "Hello World";
 ?>
 </body>
-</html>```
-````
+</html>
+```
 
 Kemudian untuk mengakses hasilnya melalui URL: http://127.0.0.1/lab2_php_dasar/php_dasar.php
 ![image](SS/2.JPG)
@@ -43,26 +43,28 @@ Kemudian untuk mengakses hasilnya melalui URL: http://127.0.0.1/lab2_php_dasar/p
 
 Menambahkan variable pada program.
 
-````py
+`````py
 <?php
-$nim = "0411500400";
-$nama = 'Abdullah';
+$nim = "312210540";
+$nama = 'Muhamad Ali M';
 echo "NIM : " . $nim . "<br>";
 echo "Nama : $nama";
-?>```
+?>
+```
 ![image](SS/3.JPG)
-
-````
 
 # Predefine Variable $\_GET
 
-````py
+````
+py
 <?php
 echo 'Selamat Datang ' . $_GET['nama'];
-?>```
+?>
+```
 
 # Membuat Form Input
-```py
+```
+py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,7 +82,7 @@ echo 'Selamat Datang ' . $_GET['nama'];
 echo 'Selamat Datang ' . $_POST['nama'];
 ?>
 </body>
-</html>```
+</html>
+```
 ![image](SS/4.JPG)
-
-````
+`````
