@@ -11,12 +11,12 @@ Kelas : TI.22.B2
 # Memulai PHP”
 
 Buat folder lab2_php_dasar pada root directory web server (d:\xampp\htdocs)
-
+OUTPUT
 ![image](SS/0.JPG)
 
 Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
 http://localhost/lab2_php_dasar/
-
+OUTPUT
 ![image](SS/1.JPG)
 
 # PHP Dasar
@@ -41,6 +41,7 @@ echo "Hello World";
 ```
 
 Kemudian untuk mengakses hasilnya melalui URL: http://127.0.0.1/lab2_php_dasar/php_dasar.php
+OUTPUT
 ![image](SS/2.JPG)
 
 # Variable PHP
@@ -56,6 +57,7 @@ echo "Nama : $nama";
 ?>
 ```
 
+OUTPUT
 ![image](SS/3.JPG)
 
 # Predefine Variable $\_GET
@@ -89,6 +91,7 @@ echo 'Selamat Datang ' . $_POST['nama'];
 </html>
 ```
 
+OUTPUT
 ![image](SS/4.JPG)
 
 ### Modul Praktikum Pemrograman Web 2
@@ -105,6 +108,7 @@ echo "Gaji yang dibawa pulang = Rp. $thp";
 ?>
 ```
 
+OUTPUT
 ![image](SS/operator.JPG)
 
 # Kondisi IF
@@ -122,6 +126,7 @@ echo "Selasa";
 ?>
 ```
 
+OUTPUT
 ![image](SS/Kondisi_IF.JPG)
 
 # Kondisi Switch
@@ -159,6 +164,7 @@ echo "Perulangan ke: " . $i . '<br />';
 ?>
 ```
 
+OUTPUT
 ![image](SS/Perulangan_for.JPG)
 
 # Perulangan while
@@ -174,6 +180,7 @@ $i++;
 ?>
 ```
 
+OUTPUT
 ![image](SS/Perulangan_while.JPG)
 
 # Perulangan dowhile
@@ -189,6 +196,7 @@ $i++;
 ?>
 ```
 
+OUTPUT
 ![image](SS/Perulangan_dowhile.JPG)
 
 # Membuat Pertanyaan & Tugas
