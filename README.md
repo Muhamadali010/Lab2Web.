@@ -190,3 +190,5 @@ $i++;
 ```
 
 ![image](SS/Perulangan_dowhile.JPG)
+
+==================== SEKIAN & TERIMA KASIH ====================
