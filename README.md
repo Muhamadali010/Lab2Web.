@@ -16,7 +16,9 @@ OUTPUT
 
 Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
 http://localhost/lab2_php_dasar/
+
 OUTPUT
+
 ![image](SS/1.JPG)
 
 # PHP Dasar
@@ -41,6 +43,7 @@ echo "Hello World";
 ```
 
 Kemudian untuk mengakses hasilnya melalui URL: http://127.0.0.1/lab2_php_dasar/php_dasar.php
+
 OUTPUT
 ![image](SS/2.JPG)
 
@@ -92,6 +95,7 @@ echo 'Selamat Datang ' . $_POST['nama'];
 ```
 
 OUTPUT
+
 ![image](SS/4.JPG)
 
 ### Modul Praktikum Pemrograman Web 2
