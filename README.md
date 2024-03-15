@@ -216,7 +216,7 @@ Buatlah program PHP sederhana dengan menggunakan form input yang menampilkan nam
 lahir dan pekerjaan. Kemudian tampilkan outputnya dengan menghitung umur berdasarkan inputan
 tanggal lahir. Dan pilihan pekerjaan dengan gaji yang berbeda-beda sesuai pilihan pekerjaan.
 
-Coba input sorcode berikut:
+Coba input sourcode berikut:
 
 ```py
 <!DOCTYPE html>
@@ -303,4 +303,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ![image](SS/output.JPG)
 
-==================== SEKIAN & TERIMA KASIH ====================
+=== SEKIAN & TERIMA KASIH ===
