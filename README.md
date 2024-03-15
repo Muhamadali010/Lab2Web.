@@ -4,6 +4,10 @@ Nim   : 312210540
 Kelas : TI.22.B2
 ```
 
+# TUGAS
+
+![image](SS/TUGAS.JPG)
+
 # Memulai PHP”
 
 Buat folder lab2_php_dasar pada root directory web server (d:\xampp\htdocs)
@@ -86,3 +90,103 @@ echo 'Selamat Datang ' . $_POST['nama'];
 ```
 
 ![image](SS/4.JPG)
+
+### Modul Praktikum Pemrograman Web 2
+
+# Operator
+
+```py
+<?php
+$gaji = 1000000;
+$pajak = 0.1;
+$thp = $gaji - ($gaji*$pajak);
+echo "Gaji sebelum pajak = Rp. $gaji <br>";
+echo "Gaji yang dibawa pulang = Rp. $thp";
+?>
+```
+
+![image](SS/operator.JPG)
+
+# Kondisi IF
+
+```py
+<?php
+$nama_hari = date("l");
+if ($nama_hari == "Sunday") {
+echo "Minggu";
+} elseif ($nama_hari == "Monday") {
+echo "Senin";
+} else {
+echo "Selasa";
+}
+?>
+```
+
+![image](SS/Kondisi_IF.JPG)
+
+# Kondisi Switch
+
+```py
+<?php
+$nama_hari = date("l");
+switch ($nama_hari) {
+case "Sunday":
+echo "Minggu";
+break;
+case "Monday":
+echo "Senin";
+break;
+case "Tuesday":
+echo "Selasa";
+break;
+default:
+echo "Sabtu";
+?>
+```
+
+# Perulangan for
+
+```py
+<?php
+echo "Perulangan 1 sampai 10 <br />";
+for ($i=1; $i<=10; $i++) {
+echo "Perulangan ke: " . $i . '<br />';
+}
+echo "Perulangan Menurun dari 10 ke 1 <br />";
+for ($i=10; $i>=1; $i--) {
+echo "Perulangan ke: " . $i . '<br />';
+}
+?>
+```
+
+![image](SS/Perulangan_for.JPG)
+
+# Perulangan while
+
+```py
+<?php
+echo "Perulangan 1 sampai 10 <br />";
+$i=1;
+while ($i<=10) {
+echo "Perulangan ke: " . $i . '<br />';
+$i++;
+}
+?>
+```
+
+![image](SS/Perulangan_while.JPG)
+
+# Perulangan dowhile
+
+```py
+<?php
+echo "Perulangan 1 sampai 10 <br />";
+$i=1;
+do {
+echo "Perulangan ke: " . $i . '<br />';
+$i++;
+} while ($i<=10);
+?>
+```
+
+![image](SS/Perulangan_dowhile.JPG)
