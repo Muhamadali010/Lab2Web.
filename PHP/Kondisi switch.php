@@ -12,4 +12,5 @@ echo "Selasa";
 break;
 default:
 echo "Sabtu";
+}
 ?>
