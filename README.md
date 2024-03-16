@@ -160,6 +160,8 @@ echo "Sabtu";
 ?>
 ```
 
+OUTPUT
+
 ![image](Screenshoot/Kondisi_switch.JPG)
 
 # Perulangan for
