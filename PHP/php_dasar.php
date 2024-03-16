@@ -11,6 +11,7 @@ echo "Hello World";
 ?>
 
 <h1>Menggunakan Variable</h1>
+
 <?php
 $nim = "312210540";
 $nama = 'Muhamad Ali M';
